@@ -64,9 +64,15 @@ Each option performs a specific operation related to electricity computation and
 ---
 
 ## Data Structures Used
-- Struct (Appliance) for organizing appliance data
-- Vector for dynamic storage of multiple appliances
-- Linear search algorithm for finding appliances by ID
+
+### Struct (Appliance)
+A user-defined data structure used to store appliance information such as ID, name, power, hours, and days. It helps organize related data into a single unit.
+
+### Vector (Dynamic Array)
+A vector is used to store multiple appliance records dynamically. It allows the system to add, update, and delete appliances without a fixed size limit.
+
+### Linear Search Algorithm
+A simple searching technique used to locate an appliance by its ID within the vector. It traverses each element until a match is found.
 
 ---
 
