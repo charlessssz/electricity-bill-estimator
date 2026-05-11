@@ -42,11 +42,9 @@ Bill = Total kWh × Rate per kWh
 g++ main.cpp -o app
 
 ### Step 2: Run the program
-
-On Windows (Git Bash):
 ./app
 
-On Windows (alternative):
+OR (Windows alternative)
 ./app.exe
 
 ---
@@ -86,5 +84,6 @@ This project is submitted as a final requirement for the course Data Structures 
 ---
 
 ## Developer
-Charles Jullianne  
-BS Computer Science Student
+Charles Jullianne Arile
+Batangas State University - Alangilan Campus
+BS Computer Science
