@@ -1,38 +1,43 @@
 # Electricity Bill Estimator (C++)
 
 ## Project Description
-The Electricity Bill Estimator is a C++ console-based application designed to compute electricity consumption and estimate billing costs. The system allows users to calculate electricity usage either through manual input or by tracking multiple appliances and their usage patterns.
+The Electricity Bill Estimator is a C++ console-based application that calculates electricity consumption and estimated billing. The system allows users to compute electricity costs using either manual input or appliance-based energy tracking.
 
-It simulates real-world electricity monitoring by computing total energy consumption in kilowatt-hours (kWh) based on appliance power rating, usage hours, and number of days used.
+It simulates real-world electricity usage by allowing users to manage multiple appliances and compute total energy consumption in kilowatt-hours (kWh).
 
 ---
 
-## Key Features
+## Features
 
 ### Manual Calculation
 - Allows users to input total electricity consumption in kWh
-- Calculates bill based on user-defined electricity rate
+- Computes total bill using a given rate per kWh
 
 ### Appliance Management System (CRUD)
-- Add appliance with details (name, power, hours, days)
-- View all stored appliances with computed energy usage
+- Add appliance (name, power in watts, hours per day, days used)
+- View all appliances with computed kWh consumption
 - Update existing appliance information
 - Delete appliance records
 
 ### Automatic Energy Computation
-- Computes electricity consumption using the formula:
-  kWh = (Power in Watts × Hours × Days) / 1000
+- Calculates electricity usage based on appliance data
+- Uses structured input for real-world energy estimation
 
 ---
 
 ## Formula Used
-kWh = (Power × Hours × Days) / 1000  
+
+### Appliance-Based Estimation
+kWh = (Power in Watts × Hours per Day × Days Used) / 1000  
 Bill = kWh × Rate per kWh
+
+### Manual Calculation
+Bill = Total kWh × Rate per kWh
 
 ---
 
 ## How to Run the Program
 
-### Step 1: Compile the program
+### Step 1: Compile the code
 ```bash
 g++ main.cpp -o app
