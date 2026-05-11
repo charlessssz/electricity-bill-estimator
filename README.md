@@ -39,5 +39,52 @@ Bill = Total kWh × Rate per kWh
 ## How to Run the Program
 
 ### Step 1: Compile the code
-```bash
 g++ main.cpp -o app
+
+### Step 2: Run the program
+
+On Windows (Git Bash):
+./app
+
+On Windows (alternative):
+./app.exe
+
+---
+
+## Program Flow
+The program runs in a menu-driven loop with the following options:
+1. Manual Calculation
+2. Add Appliance
+3. View Appliances
+4. Calculate Bill
+5. Update Appliance
+6. Delete Appliance
+7. Exit
+
+Each option performs a specific operation related to electricity computation and appliance management.
+
+---
+
+## Data Structures Used
+- Struct (Appliance) for organizing appliance data
+- Vector for dynamic storage of multiple appliances
+- Linear search algorithm for finding appliances by ID
+
+---
+
+## Program Purpose
+This project demonstrates the application of Data Structures and Algorithms concepts, including:
+- Use of structures (struct)
+- Dynamic memory management using vectors
+- Modular programming through functions
+- Input validation and error handling
+- Implementation of CRUD operations
+- Algorithmic problem-solving for real-world applications
+
+This project is submitted as a final requirement for the course Data Structures and Algorithms.
+
+---
+
+## Developer
+Charles Jullianne  
+BS Computer Science Student
