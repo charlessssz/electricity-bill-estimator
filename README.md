@@ -24,4 +24,3 @@ kWh = (Power × Hours × Days) / 1000
 
 ## Developer
 Charles Jullianne Arile
-CS 1204
