@@ -9,13 +9,13 @@ using namespace std;
 struct Appliance {
     int id;
     string name;
-    double power;   // Watts
-    double hours;   // hours per day
-    double days;    // number of days
+    double power;  
+    double hours;   
+    double days;    
 };
 
 vector<Appliance> appliances;
-int nextId = 1; // FIXED ID SYSTEM
+int nextId = 1;
 
 // FIND APPLIANCE BY ID
 int findIndexById(int id) {
@@ -68,7 +68,7 @@ void addAppliance() {
     while (choice == 'y' || choice == 'Y') {
         Appliance app;
 
-        app.id = nextId++; // FIXED ID
+        app.id = nextId++; 
 
         cout << "Appliance name: ";
         getline(cin, app.name);
